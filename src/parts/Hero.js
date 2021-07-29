@@ -21,7 +21,7 @@ const Hero = (props) => {
   return (
     <section className="container">
       <div className="row align-items-center">
-        <div className="col-6">
+        <div className="col-md-6">
           <h1 className="font-weight-light line-height-1 mb-3">
             Forget the busy work,
             <br />
@@ -88,7 +88,7 @@ const Hero = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <div style={{ width: "100%", height: 444, paddingTop: 30 }}>
             <img
               src={ImageHero}
