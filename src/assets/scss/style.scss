@@ -112,6 +112,7 @@ header {
 
   .img-wrapper {
     height: 100%;
+    cursor: pointer;
     margin-bottom: 0;
     border-radius: 0.9375rem;
     overflow: hidden;
@@ -174,17 +175,17 @@ header {
       justify-content: flex-end;
       flex-direction: column;
     }
-  }
 
-  &:hover {
-    .meta-wrapper {
-      transform: translateY(-10px);
-    }
-    &:after {
-      transform: scale(1);
-    }
-    .img-wrapper {
-      transform: scale(1);
+    &:hover {
+      .meta-wrapper {
+        transform: translateY(-10px);
+      }
+      &:after {
+        transform: scale(1);
+      }
+      .img-wrapper {
+        transform: scale(1);
+      }
     }
   }
 }
