@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+@import "color-variables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -88,6 +89,22 @@ header {
 
 .bold-hero {
   font-weight: 500;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+.img-cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.img-contain {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
 
 .card {
@@ -190,18 +207,8 @@ header {
   }
 }
 
-section {
-  margin-bottom: 70px;
-}
-
-.img-cover {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.img-contain {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
+.testimonial-hero,
+.testimonial-hero img {
+  width: 367px;
+  height: 496px;
 }
