@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 
 import Header from "parts/Header";
 import Hero from "parts/Hero";
@@ -10,6 +10,11 @@ import Footer from "parts/Footer";
 import landingPage from "json/landingPage.json";
 
 const LandingPage = (props) => {
+  useEffect(() => {
+    window.title = "Staycation | Home";
+    window.scrollTo(0, 0);
+  }, []);
+
   const refMostPicked = useRef();
   return (
     <>
